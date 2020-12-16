@@ -1,0 +1,19 @@
+{
+  "name": "spa",
+  "version": "1.0.0",
+  "description": "This is an SPA application for testing my demo application.",
+  "private": true,
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.5",
+    "axios": "^0.21.1",
+    "js-cookie": "^2.2.1",
+    "laravel-mix": "^6.0.11",
+    "postcss": "^8.1.14",
+    "qs": "^6.9.6",
+    "resolve-url-loader": "^3.1.2",
+    "sass": "^1.32.6",
+    "sass-loader": "^8.0.2",
+    "vue": "^3.0.5",
+    "vue-loader": "^16.1.0"
+  }
+}
