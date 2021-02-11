@@ -1,6 +1,6 @@
-# SPA App
+# Single-page Application
 
-This is a single-page application for testing my web services demo application.
+This is a single-page application that uses for testing my web services demo application.
 
 ## For development environment:
 
