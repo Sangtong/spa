@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: 127.0.0.1:5000/spa:1.0.0
+    restart: on-failure
+    ports:
+      - published: 8080
+        target: 80
+        protocol: tcp

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Single Page Application</title>
+    <link rel="stylesheet" href="assets/public/css/index.css">
+</head>
+<body>
+<div id="app">
+    <div v-if="loading">{{ displayMessage }}</div>
+    <pre class="error">{{ error }}</pre>
+    <a v-if="isSignedInLinkDisplay" :href="authorizationUrl">Sign in</a>
+    <div v-if="hasTokens">
+        <button @click="getSignedInUserProfile()">Get my profile.</button>
+        <pre>{{ webServiceResponseData }}</pre>
+        <a :href="signOutUrl">Sign out.</a>
+    </div>
+</div>
+<script src="assets/public/js/index.js"></script>
+</body>
+</html>

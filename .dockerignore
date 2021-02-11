@@ -1,0 +1,6 @@
+.git
+.gitattributes
+.gitignore
+/.idea
+/node_modules
+/src/assets/public

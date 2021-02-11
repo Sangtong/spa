@@ -1,0 +1,5 @@
+version: '3.8'
+services:
+  app:
+    volumes:
+      - ./src:/usr/share/nginx/html
