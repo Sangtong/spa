@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: 127.0.0.1:5000/spa:1.0.0
+    image: 127.0.0.1:5000/spa:1.0.1
     restart: on-failure
     ports:
       - published: 8080
