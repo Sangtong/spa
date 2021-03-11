@@ -1,7 +1,6 @@
 version: '3.8'
 services:
   app:
-    build: .
     image: sangtongpeesing/spa:1.0.1
     restart: on-failure
     ports:
