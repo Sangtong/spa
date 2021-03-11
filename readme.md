@@ -4,7 +4,7 @@ This is a single-page application that uses for testing my web services demo app
 
 ---
 
-## To deploy with docker-compose command.
+## How to implement this application.
 
 ### For development environment:
 
